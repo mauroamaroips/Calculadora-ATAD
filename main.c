@@ -31,7 +31,7 @@ int main() {
     } while (op != '+' && op != '-' && op != '*' && op != '/');
 
     int result = calculator(n1,n2,op);
-    printf("Resultado da operação aritmética: %d\n", result);
+    printf("Resultado da operação aritmética: %.2f\n", (double)result);
 
     return EXIT_SUCCESS;
 }
